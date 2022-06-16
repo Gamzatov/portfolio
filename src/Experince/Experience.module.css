@@ -1,0 +1,19 @@
+.study_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+.study_info{
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+}
+.nameOf{
+    font-size: 18px;
+    font-weight: 600;
+}
+@media(max-width:650px ){
+    .study_wrapper{
+        grid-template-columns: 1fr;
+    }
+}
