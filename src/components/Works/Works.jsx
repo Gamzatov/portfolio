@@ -25,6 +25,7 @@ const Works = () => {
                         <p className={s.description}>
                             Little web-site for pizzeria.
                             There you can choose pizza, add it to cart or remove unnecessary.
+                            <br> <b>**Unfortunately for now works only with local database(with json-server).</b>
                         </p>
                         <div className={s.link}>
                             <a href="https://gamzatov.github.io/reactPizza/">  Visit</a>
