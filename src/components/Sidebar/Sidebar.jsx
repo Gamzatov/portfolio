@@ -19,7 +19,7 @@ const Sidebar = () => {
 
                 <ul className={s.links_list_wrapper}>
                     <li className={s.sidebar_link}>
-                        <NavLink className={({ isActive }) => (isActive ? 'is-active' : 'inactive')} to='portfolio'><span className={s.icon_holder}><ion-icon className={s.icon} name="home-outline"></ion-icon></span> Home </NavLink>
+                        <NavLink className={({ isActive }) => (isActive ? 'is-active' : 'inactive')} to='/'><span className={s.icon_holder}><ion-icon className={s.icon} name="home-outline"></ion-icon></span> Home </NavLink>
                     </li>
                     <li className={s.sidebar_link}>
                         <NavLink className={({ isActive }) => (isActive ? 'is-active' : 'inactive')} to='about'> <span className={s.icon_holder}><ion-icon className={s.icon} name="person-outline"></ion-icon> </span>About</NavLink>
