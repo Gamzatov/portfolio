@@ -116,26 +116,41 @@ a {
   left: 0;
   right: 0;
 }
-.mob_btn{
+.mob_btn {
   display: none;
 }
-.btn_wrapper{
+.btn_wrapper {
   margin-top: 30px;
 }
-.main_btn{
+.main_btn {
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
 }
-.main_btn:hover{
+.main_btn:hover {
   background-color: rgb(51, 163, 254);
   color: #fff;
 }
+.mob_menu {
+  background-color: rgb(51, 163, 254);
+  color: #fff;
+  padding: 5px;
+  border: none;
+  font-size: 22px;
+  border-radius: 8px;
+}
+.close_btn{
+  background-color: #f25858;
+  padding: 5px;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+}
 
-@media(max-width:1023px){
-  .content_wrapper{
+@media (max-width: 1023px) {
+  .content_wrapper {
     margin-left: 0;
   }
-  .mob_btn{
+  .mob_btn {
     display: block;
     position: absolute;
     z-index: 9;
