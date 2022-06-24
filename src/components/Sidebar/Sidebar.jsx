@@ -30,9 +30,7 @@ const Sidebar = () => {
                     <li className={s.sidebar_link}>
                         <NavLink className={({ isActive }) => (isActive ? 'is-active' : 'inactive')} to='works'> <span className={s.icon_holder}><ion-icon className={s.icon} name="construct-outline"></ion-icon> </span>Works</NavLink>
                     </li>
-                    {/* <li className={s.sidebar_link}>
-                    <NavLink className={({ isActive }) => (isActive ? 'is-active' : 'inactive')} to='contact'><span className={s.icon_holder}><ion-icon className={s.icon} name="call-outline"></ion-icon></span> Contact</NavLink>
-                </li> */}
+
                 </ul>
             </div>
         </div>
