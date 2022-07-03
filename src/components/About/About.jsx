@@ -1,24 +1,26 @@
 import React from 'react';
 import s from './About.module.css'
-import { motion } from 'framer-motion'
+import {motion} from 'framer-motion'
 import me from '../../assets/img/me2.jpg'
+
 const About = () => {
     return (
         <motion.div
-            initial={{ width: 0 }}
-            animate={{ width: "100%" }}
-            exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}>
+            initial={{width: 0}}
+            animate={{width: "100%"}}
+            exit={{x: window.innerWidth, transition: {duration: 0.3}}}>
             <h2 className='section-title'>About</h2>
             <div className={s.about_wrapper}>
                 <div className={s.about_photo}>
-                    <img className={s.photo} src={me} alt="" />
+                    <img className={s.photo} src={me} alt=""/>
                 </div>
                 <div className={s.about_text_wrapper}>
                     <div className={s.about_text}>
                         <p>
                             Hi everyone, nice to meet you here!
                             I'm Artem Dirksen, 26 years old. I'm social, kind and self motivated front-end developer.
-                            Here you can find some information about me. I like to travel and investigate interesting places around the world.
+                            Here you can find some information about me. I like to travel and investigate interesting
+                            places around the world.
                         </p>
                         <div className="btn_wrapper ">
                             <a href='../../assets/DirksenArtem.pdf' className='main_btn' download>Download CV</a>
