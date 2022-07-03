@@ -8,6 +8,7 @@
 }
 .photo_wrapper {
   text-align: center;
+  padding-top: 10%;
 }
 .mainSec {
   padding-top: 150px;
@@ -31,9 +32,9 @@
   display: none;
 }
 .photo_wrapper > img{
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
+  border-radius: 8px;
+  /*height: 250px;*/
+  /*width: 250px;*/
 }
 .btn:hover + .icon_holder {
   /* display: block; */
