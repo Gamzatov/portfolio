@@ -20,7 +20,7 @@ const About = () => {
                             Hi everyone, nice to meet you here!
                             I'm Artem Dirksen, 26 years old. I'm social, kind and self motivated front-end developer.
                             Here you can find some information about me. I like to travel and investigate interesting
-                            places around the world.
+                            places around the world.with teammates. Unfortunately i can't show all off my projects.
                         </p>
                         <div className="btn_wrapper ">
                             <a href='../../assets/DirksenArtem.pdf' className='main_btn' download>Download CV</a>
