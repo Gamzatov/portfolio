@@ -2,8 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion'
 import s from './Works.module.css'
 import pizza from '../../assets/img/works/pizza.jpg'
-import testway from '../../assets/img/works/testway.jpg'
+import barelief from '../../assets/img/works/barelief.jpg'
 import localgram from '../../assets/img/works/localgram.jpg'
+import georgina from '../../assets/img/works/georgina.jpg'
+import anton from '../../assets/img/works/anton.jpg'
 import { NavLink } from 'react-router-dom';
 
 const Works = () => {
@@ -25,7 +27,7 @@ const Works = () => {
                         <p className={s.description}>
                             Little web-site for pizzeria.
                             There you can choose pizza, add it to cart or remove unnecessary.
-                          <br /> <b>  **Unfortunately for now works only with local database(with json-server).</b>
+                            <br /> <b>  **Unfortunately for now works only with local database(with json-server).</b>
                         </p>
                         <div className={s.link}>
                             <a href="https://gamzatov.github.io/reactPizza/">  Visit</a>
@@ -49,24 +51,60 @@ const Works = () => {
                         </div>
                     </div>
                 </div>
-                {/*<div className={s.item}>*/}
-                {/*    <div className={s.item_img}>*/}
-                {/*        <img src={testway} alt="Pizza" />*/}
-                {/*    </div>*/}
-                {/*    <div className={s.item_text}>*/}
-                {/*        <p className={s.title}>*/}
-                {/*            TestWay*/}
-                {/*        </p>*/}
-                {/*        <p className={s.description}>*/}
-                {/*            Simple page concentrate on register users for some database.*/}
-                {/*        </p>*/}
-                {/*        <div className={s.link}>*/}
-                {/*            <a href="https://gamzatov.github.io/testWay/">*/}
-                {/*                Visit*/}
-                {/*            </a>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className={s.item}>
+                    <div className={s.item_img}>
+                        <img src={barelief} alt="barelief" />
+                    </div>
+                    <div className={s.item_text}>
+                        <p className={s.title}>
+                            Bud-Barelief
+                        </p>
+                        <p className={s.description}>
+                            Site for the team involved in the repair of apartments
+                        </p>
+                        <div className={s.link}>
+                            <a href="https://gamzatov.github.io/barelief">
+                                Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className={s.item}>
+                    <div className={s.item_img}>
+                        <img src={georgina} alt="georgina" />
+                    </div>
+                    <div className={s.item_text}>
+                        <p className={s.title}>
+                            Georgina
+                        </p>
+                        <p className={s.description}>
+                            Landing page for beauty saloon.
+                        </p>
+                        <div className={s.link}>
+                            <a href="https://gamzatov.github.io/Georgina/">
+                                Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className={s.item}>
+                    <div className={s.item_img}>
+                        <img src={anton} alt="anton" />
+                    </div>
+                    <div className={s.item_text}>
+                        <p className={s.title}>
+                            A1 - Technology
+                        </p>
+                        <p className={s.description}>
+                            Landing page for guy, that makes sculpture from stone.
+                        </p>
+                        <div className={s.link}>
+                            <a href="https://gamzatov.github.io/a1-technology/">
+                                Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </motion.div>

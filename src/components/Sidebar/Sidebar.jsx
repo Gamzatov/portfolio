@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom';
 const Sidebar = () => {
     const [menu, setMenu] = React.useState(false);
     const handleMenu = () => {
-        setMenu(!menu)
+        // setMenu(!menu)
     }
     return (
         <div className="side_wrapper">
